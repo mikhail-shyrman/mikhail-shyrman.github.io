@@ -1139,11 +1139,20 @@ header .header_content .slick-active button {
   .feature .feature_content .btn_feature {
     display: inline-block;
   }
+  #btn_top a {
+    display: none;
+  }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
   /**/
+  .header .header_content .slider .slide h1 {
+    font-size: 40px;
+  }
+  .header .header_content .slider .slide h1 span {
+    font-size: 65px;
+  }
   .clients .company ul li {
     display: block;
   }
