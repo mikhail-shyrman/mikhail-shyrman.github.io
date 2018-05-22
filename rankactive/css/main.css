@@ -1,0 +1,374 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon/icomoon.eot?sf4hqa");
+  src: url("../fonts/icomoon/icomoon.eot?sf4hqa#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?sf4hqa") format("truetype"), url("../fonts/icomoon/icomoon.woff?sf4hqa") format("woff"), url("../fonts/icomoon/icomoon.svg?sf4hqa#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook-square:before {
+  content: "\f082";
+}
+
+.icon-linkedin-square:before {
+  content: "\f08c";
+}
+
+.icon-twitter:before {
+  content: "\f099";
+}
+
+.icon-angle-down:before {
+  content: "\f107";
+}
+
+.icon-youtube-play:before {
+  content: "\f16a";
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #414141;
+}
+
+body ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+body ul li {
+  padding: 0;
+}
+
+body a {
+  color: inherit;
+}
+
+body a:hover, body a:focus, body a:visited, body a:active {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}
+
+.header {
+  color: #fff;
+}
+
+.header .top_header {
+  background-color: #4ca882;
+  height: 80px;
+}
+
+.header .top_header .logo {
+  float: left;
+  line-height: 80px;
+}
+
+.header .top_header .logo a {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 34px;
+}
+
+.header .top_header .menu {
+  font-size: 16px;
+  float: right;
+  margin-top: 25px;
+}
+
+.header .top_header .menu ul li {
+  position: relative;
+  display: inline-block;
+}
+
+.header .top_header .menu ul li:first-child {
+  border: 1px solid #fff;
+  padding: 5px;
+}
+
+.header .top_header .menu ul li:first-child a:hover {
+  text-decoration: none;
+}
+
+.header .top_header .menu ul li + li {
+  padding-left: 20px;
+}
+
+.header .top_header .menu ul a:hover {
+  text-decoration: underline;
+}
+
+.header .header_content {
+  background-color: #60be97;
+  padding-top: 185px;
+}
+
+.header .header_content h1 {
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 36px;
+  text-align: center;
+  padding-bottom: 85px;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.header .header_content form {
+  padding-bottom: 230px;
+}
+
+.header .header_content form input[type=text] {
+  float: left;
+  color: #4ca882;
+  outline: none;
+  border: none;
+  padding-left: 10px;
+  width: 307px;
+  height: 50px;
+  -webkit-border-radius: 5px 0 0 5px;
+          border-radius: 5px 0 0 5px;
+  border: 1px solid #60be97;
+}
+
+.header .header_content form .my-menu {
+  height: 50px;
+  float: left;
+  background-color: #4ca882;
+  border: 1px solid #60be97;
+  outline: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.header .header_content form .my-menu label {
+  padding-top: 11px;
+  padding-left: 12px;
+  height: 100%;
+  display: block;
+  cursor: pointer;
+}
+
+.header .header_content form .my-menu ul {
+  color: #414141;
+  background: #fff;
+  left: 10px;
+  list-style: none;
+  overflow-x: hidden;
+  z-index: 2;
+}
+
+.header .header_content form .my-menu ul li {
+  cursor: pointer;
+  padding: 5px 12px;
+}
+
+.header .header_content form .my-menu ul li:hover {
+  background-color: #4ca882;
+  color: #fff;
+}
+
+.header .header_content form #lang {
+  width: 75px;
+  position: relative;
+}
+
+.header .header_content form #lang label::after {
+  content: '\f107';
+  font-family: "icomoon";
+  position: absolute;
+  left: 50px;
+  top: 11px;
+  display: inline-block;
+}
+
+.header .header_content form #count {
+  width: 160px;
+  position: relative;
+}
+
+.header .header_content form #count label::after {
+  content: '\f107';
+  font-family: "icomoon";
+  position: absolute;
+  left: 133px;
+  top: 11px;
+  display: inline-block;
+}
+
+.header .header_content form .active {
+  background-color: #4ca882;
+  color: #fff;
+}
+
+.header .header_content form input[type=submit] {
+  background-color: #4ca882;
+  border: 1px solid #60be97;
+  -webkit-border-radius: 0 5px 5px 0;
+          border-radius: 0 5px 5px 0;
+  height: 50px;
+  width: 208px;
+  float: left;
+  outline: none;
+}
+
+.header .header_content form input[type=submit]:hover {
+  font-weight: 700;
+}
+
+.traffic,
+.api {
+  padding-top: 75px;
+}
+
+.traffic .graphics,
+.api .graphics {
+  text-align: center;
+  padding-top: 165px;
+}
+
+.traffic .text h4,
+.api .text h4 {
+  font-weight: 900;
+  font-size: 28px;
+  width: 250px;
+  padding-bottom: 35px;
+}
+
+.traffic .text p,
+.api .text p {
+  padding-bottom: 30px;
+}
+
+.traffic .content,
+.api .content {
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 60px;
+}
+
+.footer {
+  background-color: #4ca882;
+  height: 100px;
+  margin-top: 70px;
+}
+
+.footer .logo {
+  float: left;
+  line-height: 100px;
+}
+
+.footer .logo a {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 34px;
+  color: #fff;
+}
+
+.footer .social {
+  float: right;
+  line-height: 100px;
+}
+
+.footer .social ul li {
+  display: inline-block;
+  font-size: 25px;
+  color: #d2e9e0;
+}
+
+.footer .social ul li:hover {
+  color: #fff;
+}
+
+.footer .social ul li + li {
+  padding-left: 15px;
+}
+
+.footer .social ul a::before {
+  content: '\f099';
+  font-family: "icomoon";
+}
+
+.footer .social ul li:nth-child(2) a::before {
+  content: '\f082';
+}
+
+.footer .social ul li:nth-child(3) a::before {
+  content: '\f16a';
+}
+
+.footer .social ul li:last-child a::before {
+  content: '\f08c';
+}
+
+/*==========    Desktop First    ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  /**/
+}
+
+/* Medium Devices, Desktop */
+@media only screen and (max-width: 992px) {
+  /**/
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  /**/
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  /**/
+}
+
+/* Custom, iPhones Retina */
+@media only screen and (max-width: 320px) {
+  /**/
+}
+
+/*==========    Mobile First    ==========*/
+/* Custom, iPhones Retina */
+@media only screen and (min-width: 320px) {
+  /**/
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  /**/
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  /**/
+}
+
+/* Medium Devices, Desktop */
+@media only screen and (min-width: 992px) {
+  /**/
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  /**/
+}
